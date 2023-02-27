@@ -1,0 +1,84 @@
+.twitter-container{
+  display: flex;
+  flex-direction: row;
+  width: 540px;
+}
+
+.profile-picture{
+  margin-right: 15px;
+}
+.picture{
+  width: 60px;
+  background-color: orangered;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.user-tweet{
+  display: flex;
+  flex-direction: column;
+}
+
+.user{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.nickname{
+  font-family: arial;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.email{
+  font-family: arial;
+  color: gray;
+  font-size: 20px;
+}
+
+.tweet-text{
+    font-family: arial;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.youtube-link-container{
+  border-color: rgb(202, 202, 202);
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 1px;
+  display: flex;
+  border-left: none;
+}
+
+.thumbnail{
+  width: 200px;
+  background-color: rgb(202, 202, 202);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+}
+
+.side{
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  line-height: 25px;
+}
+.youtube-link{
+  font-family: arial;
+  color: gray;
+  font-size: 18px;
+  flex: 1;
+}
+
+.youtube-title{
+  font-family: arial;
+  font-size: 18px;
+}
+

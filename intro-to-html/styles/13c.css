@@ -1,0 +1,90 @@
+.container{
+  box-shadow: -7px 10px 84px -12px rgba(0,0,0,0.49);
+  -webkit-box-shadow: -7px 10px 84px -12px rgba(0,0,0,0.49);
+  -moz-box-shadow: -7px 10px 84px -12px rgba(0,0,0,0.49);
+  border-radius: 3px;
+  width: 380px;
+  padding: 20px;
+}
+
+.inbox{
+  display: block;
+  padding-bottom: 20px;
+  font-family: roboto;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text{
+  display: block;
+}
+
+.profile-picture{
+  margin-right: 10px;
+  
+}
+
+.picture{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.profile-picture2{
+  margin-right: 10px;
+  
+}
+
+.picture2{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.picture3{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.sender{
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subject{
+  margin-bottom: 3px;
+}
+
+.sender-name{
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.subject-name{
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.context{
+  font-family: roboto;
+  font-size: 15px;
+  color: rgb(141, 140, 140);
+}
+
+.time{
+  font-family: roboto;
+  font-size: 13px;
+  color: rgb(141, 140, 140);
+}
+

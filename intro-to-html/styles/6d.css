@@ -1,0 +1,30 @@
+p{
+  font-family: Montserrat;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header-text{
+  padding-left: 90px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.desc{
+  font-size: 20px;
+  padding-top: 0px;
+}
+
+.delivery-link{
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.15s;
+}
+
+.delivery-link:active{
+  color:aqua;
+}

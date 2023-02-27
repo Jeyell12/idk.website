@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12e</title>
+
+    <style>
+
+      .container{
+        border-color: gray;
+        border: solid;
+        border-width: 1px;
+        height: 200px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        
+      }
+
+      .home{
+        display: flex;
+        flex-direction: row;
+      }
+
+      .notifications{
+        display: flex;
+        flex-direction: row;
+      }
+
+      .messages{
+        display: flex;
+        flex-direction: row;
+      }
+
+      .text{
+       flex: 1;
+       margin-left: 10px;
+       justify-content: space-between;
+      }
+
+      .number{
+        width: 20px; 
+        background-color: blue;
+        color: white;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 15px;
+        justify-content: space-between;
+        font-size: 14px;
+        font-weight: bold;
+        
+      }
+
+      p{
+        font-family: arial;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="home">
+        <p class="text">Home</p>
+        <p class="number">14</p>
+      </div>
+      <div class="notifications">
+        <p class="text">Notifications</p>
+        <p class="number">3</p>
+      </div>
+      <div class="messages">
+        <p class="text">Messages</p>
+        <p class="number">5</p>
+      </div>
+    </div>
+  </body>
+</html>

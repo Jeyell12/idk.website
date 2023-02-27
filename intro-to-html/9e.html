@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9e</title>
+
+    <style>
+      .f-nested{
+        box-shadow: -3px 4px 21px 5px rgba(0,0,0,0.19);
+        -webkit-box-shadow: -3px 4px 21px 5px rgba(0,0,0,0.19);
+        -moz-box-shadow: -3px 4px 21px 5px rgba(0,0,0,0.19);
+        width: 130px;
+        height: 230px;
+      }
+
+      .f-img{
+        width: 130px;
+        height: 150px;
+        background-color: white;
+        object-fit: cover;
+      }
+
+      .f-text{
+        font-weight: bold;
+        font-family: arial;
+        margin-left: 5px;
+        margin-top: 1px;
+        font-size: 15px;
+        margin-bottom: 0px;
+      }
+
+      .f-mutual{
+        font-family: arial;
+        margin-left: 5px;
+        margin-top: 1px;
+        font-size: 10px;
+        color: grey;
+      }
+
+      .add-btn{
+        background-color: rgb(64, 64, 253);
+        color: white;
+        font-family: arial;
+        border: none;
+        border-radius: 3px;
+        margin-left: 5px;
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .g-div{
+        width: 130px;
+        height: 230px;
+        box-shadow: -3px 4px 21px 5px rgba(0,0,0,0.19);
+        -webkit-box-shadow: -3px 4px 21px 5px rgba(0,0,0,0.19);
+        -moz-box-shadow: -3px 4px 21px 5px rgba(0,0,0,0.19);
+      }
+
+      .g-img{
+        width: 130px;
+        height: 150px;
+        background-color: white;
+        object-fit: contain;
+      }
+
+      .g-text{
+        font-weight: bold;
+        font-family: arial;
+        margin-left: 5px;
+        margin-top: 1px;
+        font-size: 15px;
+        margin-bottom: 5px;
+      }
+
+      .g-mutual{
+        font-family: arial;
+        margin-left: 5px;
+        margin-top: 1px;
+        font-size: 10px;
+        color: grey;
+      }
+
+      .h-div{
+        width: 130px;
+        height: 230px;
+        box-shadow: -3px 4px 21px 5px rgba(0,0,0,0.19);
+        -webkit-box-shadow: -3px 4px 21px 5px rgba(0,0,0,0.19);
+        -moz-box-shadow: -3px 4px 21px 5px rgba(0,0,0,0.19);
+        display: block;
+        margin-left: 15px;
+        display: inline-block;
+      }
+
+      .h-img{
+        width: 130px;
+        height: 150px;
+        background-color: white;
+        object-fit:cover ;
+        
+      }
+
+      .h-text{
+        font-weight: bold;
+        font-family: arial;
+        margin-left: 5px;
+        margin-top: 1px;
+        font-size: 15px;
+        margin-bottom: 5px;
+      }
+
+      .h-mutual{
+        font-family: arial;
+        margin-left: 5px;
+        margin-top: 1px;
+        font-size: 10px;
+        color: grey;
+      }
+
+      .profile{
+        width: 20px;
+        border-radius: 40px;
+        background-color: orangered;
+        margin-left: 5px;
+        margin-bottom: 3px;
+      }
+
+      .f-profile{
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .f-mutual , .g-mutual{
+        display: inline-block;
+        width: 20;
+      }
+
+      .f-friends , .g-friends{
+        display: inline-block;
+        width: 20;
+        vertical-align: middle;
+      }
+
+      .div2{
+        display: grid;
+        grid-template-columns: 30px 1fr;
+      }
+      
+      .grid{
+        display: grid;
+        grid-template-columns: 2fr 2fr 12fr;
+        column-gap: 10px;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+
+ 
+
+    <div class="grid">
+      <div class="f-nested">
+        <div class="f-preview">
+          <img class="f-img" src="thumbnails/rob-potter-xFSMdOXsO5o-unsplash.jpg" >
+        </div>
+
+        <div>
+        <div class="f-name">
+          <p class="f-text">
+            Miko
+          </p>
+        </div>
+        <div class="div2">
+          <div class="f-profile">
+            <img class="profile" src="thumbnails/darwin.webp">
+          </div> 
+          <div class="f-friends">
+            <p class="f-mutual">
+              2 mutual friends
+            </p>
+          </div>
+        </div>
+      </div>
+        
+        <div  class="f-add">
+          <button class="add-btn">
+            Add friend
+          </button>
+        </div>
+        
+      </div>
+    
+    
+    <div class="g-div">
+      <div>
+        <img class="g-img" src="thumbnails/monkey2.jpg" >
+      </div>
+      
+      <div class="g-name">
+        <p class="g-text">
+          Jairo
+        </p>
+      </div>
+      <div class="div2">
+        <div class="f-profile">
+          <img class="profile" src="thumbnails/darwin.webp">
+        </div>    
+        <div class="g-friends">
+          <p class="g-mutual">
+            3 mutual friends
+          </p>  
+        </div>  
+      </div>
+        <div>
+          <button class="add-btn">
+            Add friend
+          </button>
+        </div>
+    </div>
+     
+      
+   
+  <div class="h-div">
+    <img class="h-img" src="thumbnails/kelly-sikkema-r077pfFsdaU-unsplash.jpg" >
+    <div>
+      <p class="h-text">
+        Denmark
+      </p>
+      <div class="div2">
+        <div class="f-profile">
+          <img class="profile" src="thumbnails/darwin.webp">
+        </div>    
+        <div class="g-friends">
+          <p class="g-mutual">
+            4 mutual friends
+          </p>  
+        </div>  
+      </div>
+        <div>
+          <button class="add-btn">
+            Add friend
+          </button>
+        </div>
+    </div>
+  </div>
+  </div>
+     
+  </body>
+</html>
